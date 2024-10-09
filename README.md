@@ -26,30 +26,7 @@ Additionally, incorporating liquid staking and Miner Extractable Value (MEV) int
 <img width="715" alt="スクリーンショット 2024-10-09 12 46 30" src="https://github.com/user-attachments/assets/5321dffb-e2f7-493c-b6f7-9f3d26dd96b0">
 
 
-### Architecture
-```mermaid
-  sequenceDiagram
-    actor User
-    participant BankWebsite as Bank Account Web
-    participant ChromeExt as zkCredit (Chrome Extension)
-    participant Frontend as zkCredit Dashboard
-    participant RustServer as Rust Verify
-    participant Verifier as Verifier Contract
-    participant ENS as ENS
 
-    User->>BankWebsite: 1. Login
-    BankWebsite-->>ChromeExt: HTTPS Response with user data and signature
-    ChromeExt->>ChromeExt: 2. Generate zkTLSProof from user data
-    ChromeExt-->>User: 3. Provide zkTLSProof for download
-    User->>Frontend: 4. Upload zkTLSProof to dashboard
-    Frontend->>RustServer: 5. Send zkTLSProof for verification
-    RustServer-->>Frontend: 6. Return verification result
-    Frontend->>Frontend: 7. Generate zkMLProof<br/>(private input: input data, public input: existing model)
-    Frontend->>Verifier: 8. Send zkMLProof to verifier contract
-    Verifier-->>Frontend: 9. Return verification result<br/>(public output: inference result)
-    Frontend->>ENS: 10. Store verification result on ENS text records
-
-```
 
 
 ### Implementation Status
@@ -86,8 +63,8 @@ make ui_dev
 
 | contract                   |                                                                                                                   contract address |
 | :------------------------- | ---------------------------------------------------------------------------------------------------------------------------------: |
-| Ethereum Sepolia    | [0xf2c9d93716e818bda8fd9cd13b692ec5302d5568](https://sepolia.etherscan.io/address/0xf2c9d93716e818bda8fd9cd13b692ec5302d5568#code)|
-| Scroll Sepolia    | [0x677ab31a9d777eedbc88ce2198dce8de9378e78f](https://sepolia.scrollscan.com/address/0x677ab31a9d777eedbc88ce2198dce8de9378e78f)|
+| NFT contract    | [4idb71pCuJckDM3iJfgDPw94YyGjm4MgWFH1eYzBT7oyxiV6JRx3gtgNFyGUeSc2rS7oBLaxsUbR7PRbLRJFYoWi](https://explorer.solana.com/tx/4idb71pCuJckDM3iJfgDPw94YyGjm4MgWFH1eYzBT7oyxiV6JRx3gtgNFyGUeSc2rS7oBLaxsUbR7PRbLRJFYoWi?cluster=devnet)|
+| Token contract    | [2WnjhDNU5LAbhcYWVGvAhzFBWRHKuyDmJmGT2VtNEf9t](https://explorer.solana.com/address/2WnjhDNU5LAbhcYWVGvAhzFBWRHKuyDmJmGT2VtNEf9t)|
 
 
 
