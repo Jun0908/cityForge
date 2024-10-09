@@ -35,7 +35,7 @@ Additionally, incorporating liquid staking and Miner Extractable Value (MEV) int
 | :------------- | ---------------------------------------------------------------: |
 | Demo Movie      |  [cityForge-Movie](https://www.youtube.com/watch?v=pY5WoDl1_OY)|
 | Pitch Doc    |   [cityForge-presentation](https://docs.google.com/presentation/d/1iivj84G9uyN8AYd-u-iq2lXvWZISgpxH/edit?usp=sharing&ouid=100915926369744357011&rtpof=true&sd=true)|
-| Demo Site     |                                 [cityForge-demo](https://zk-credit-teal.vercel.app/) | 
+| Demo Site     |                                 [cityForge-demo](https://town-forge.web.app/) | 
 | colosseum   | [cityForge-colosseum](https://arena.colosseum.org/projects/hackathon/cityforge) |
 
 
