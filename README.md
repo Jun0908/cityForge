@@ -1,4 +1,4 @@
-# cityForge
+# CityForge
 
 ### Overview
 This project aims to empower individuals to invest in and shape their own cities using decentralized technology. By utilizing Real World Assets (RWA) such as automated and unmanned systems, and combining them with data monetization through DePIN (Decentralized Physical Infrastructure Network), this initiative offers a way to revitalize local communities, create new revenue streams, and allow citizens to take control of their environments. 
