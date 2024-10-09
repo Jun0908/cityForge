@@ -25,8 +25,8 @@ function Banner01(props) {
 
     const [dataBlock] = useState(
         {
-            title: 'Buy & Sell Digital Assets In The Coffee',
-            desc : 'Coin Coffee is the easiest, safest, and fastest way to buy & sell crypto asset exchange.',
+            title: 'Invest in Decentralized Infrastructure to Build Own Cities',
+            desc : 'Empowering Communities through Real World Assets (RWA) and Unmanned Systems with DePIN.',
             title2: 'Our Partners'
         }
     );
