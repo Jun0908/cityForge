@@ -3,6 +3,7 @@
 ### Overview
 This project aims to empower individuals to invest in and shape their own cities using decentralized technology. By utilizing Real World Assets (RWA) such as automated and unmanned systems, and combining them with data monetization through DePIN (Decentralized Physical Infrastructure Network), this initiative offers a way to revitalize local communities, create new revenue streams, and allow citizens to take control of their environments. 
 
+
 ### Problems
 Investors face several significant challenges when it comes to urban infrastructure investments:
 
@@ -10,6 +11,7 @@ Low Returns: Traditional urban infrastructure investments often yield low financ
 Unpredictable Revenues: Revenue streams can be difficult to predict, making it hard for investors to gauge risk and reward.
 High Initial Costs: Many urban infrastructure projects require a large upfront investment, which creates barriers to entry, especially for smaller investors or community-driven projects.
 These challenges hinder innovation, limit local development, and concentrate control in the hands of large corporations, leaving ordinary citizens with little involvement or benefit.
+
 
 ### Solution
 The solution is to introduce decentralized investments in automated and unmanned systems as Real World Assets (RWA), combined with data monetization through DePIN. This approach:
@@ -19,8 +21,10 @@ Increases Transparency: The decentralized model ensures greater transparency in 
 Creates New Revenue Streams: By leveraging IoT data and other monetizable information, this model introduces additional streams of income for investors.
 Additionally, incorporating liquid staking and Miner Extractable Value (MEV) into the investment model ensures higher returns, making urban infrastructure projects more financially viable and attractive to a broader range of investors.
 
+
 ### Technologies I used
 <img width="715" alt="スクリーンショット 2024-10-09 12 46 30" src="https://github.com/user-attachments/assets/5321dffb-e2f7-493c-b6f7-9f3d26dd96b0">
+
 
 ### Architecture
 ```mermaid
@@ -47,6 +51,7 @@ Additionally, incorporating liquid staking and Miner Extractable Value (MEV) int
 
 ```
 
+
 ### Implementation Status
 
 | Title          |                                                              URL |
@@ -55,6 +60,7 @@ Additionally, incorporating liquid staking and Miner Extractable Value (MEV) int
 | Pitch Doc    |   [cityForge-presentation](https://docs.google.com/presentation/d/1iivj84G9uyN8AYd-u-iq2lXvWZISgpxH/edit?usp=sharing&ouid=100915926369744357011&rtpof=true&sd=true)|
 | Demo Site     |                                 [cityForge-demo](https://zk-credit-teal.vercel.app/) | 
 | colosseum   | [cityForge-colosseum](https://arena.colosseum.org/projects/hackathon/cityforge) |
+
 
 
 ### Development
@@ -74,6 +80,7 @@ make ui_install
 make ui_dev
 ```
 
+
 ### Contracts
 **Verifier Contract**
 
@@ -81,6 +88,7 @@ make ui_dev
 | :------------------------- | ---------------------------------------------------------------------------------------------------------------------------------: |
 | Ethereum Sepolia    | [0xf2c9d93716e818bda8fd9cd13b692ec5302d5568](https://sepolia.etherscan.io/address/0xf2c9d93716e818bda8fd9cd13b692ec5302d5568#code)|
 | Scroll Sepolia    | [0x677ab31a9d777eedbc88ce2198dce8de9378e78f](https://sepolia.scrollscan.com/address/0x677ab31a9d777eedbc88ce2198dce8de9378e78f)|
+
 
 
 ### References
