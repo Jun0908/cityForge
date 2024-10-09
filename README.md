@@ -1,19 +1,24 @@
-# zkCredit
+# cityForge
 
 ### Overview
-We have successfully integrated zkTLS and zkML to securely verify off-chain credit data on-chain. This enables any off-chain data to become portable, and without revealing the data itself, the inference result of zkML—the credit score—can be verified on-chain.
+This project aims to empower individuals to invest in and shape their own cities using decentralized technology. By utilizing Real World Assets (RWA) such as automated and unmanned systems, and combining them with data monetization through DePIN (Decentralized Physical Infrastructure Network), this initiative offers a way to revitalize local communities, create new revenue streams, and allow citizens to take control of their environments. 
 
 ### Problems
-A significant challenge in the current crypto industry is the difficulty of utilizing off-chain data in Web3 dApps. Relying solely on on-chain data limits the scope of what can be accomplished, as most user data exists off-chain.<br>
-For instance, many existing lending protocols require over-collateralization because credit scores evaluated solely on on-chain data necessitate this precaution. However, critical credit-related data, such as income or overdue utility payments, often resides off-chain. By leveraging this off-chain data for on-chain credit score verification, the potential use cases for Web3 could be greatly expanded.
+Investors face several significant challenges when it comes to urban infrastructure investments:
+
+Low Returns: Traditional urban infrastructure investments often yield low financial returns, discouraging participation.
+Unpredictable Revenues: Revenue streams can be difficult to predict, making it hard for investors to gauge risk and reward.
+High Initial Costs: Many urban infrastructure projects require a large upfront investment, which creates barriers to entry, especially for smaller investors or community-driven projects.
+These challenges hinder innovation, limit local development, and concentrate control in the hands of large corporations, leaving ordinary citizens with little involvement or benefit.
 
 
 ### Solution
-To address this issue, we focused on two key technologies: zkTLS and zkML.<br>
-zkTLS is a protocol that creates a secure gateway between private Web2 data and the Web3 ecosystem, enabling users to export data from any website securely and without needing permission from the data-holding companies. With zkTLS, Web2 data becomes portable while remaining private, and it can be verified on-chain.<br>
-On the other hand, zkML is a technology that proves inference results from specific machine learning models without revealing the input data used for the inference. It verifies that the private input has undergone the correct computation process to produce the ML inference result. By leveraging zkML, data verification becomes more flexible, significantly expanding the range of verifiable data and potential use cases through the application of machine learning.<br>
-By combining these two technologies, we can securely and flexibly verify off-chain data on-chain without compromising data privacy.<br>
-In our demo, we implemented under-collateralized lending as a use case by utilizing off-chain credit data, employing TLS Notary and zkML.
+The solution is to introduce decentralized investments in automated and unmanned systems as Real World Assets (RWA), combined with data monetization through DePIN. This approach:
+
+Reduces Costs: Automation and decentralization lower operational costs, making it accessible for smaller investors.
+Increases Transparency: The decentralized model ensures greater transparency in operations and revenue distribution.
+Creates New Revenue Streams: By leveraging IoT data and other monetizable information, this model introduces additional streams of income for investors.
+Additionally, incorporating liquid staking and Miner Extractable Value (MEV) into the investment model ensures higher returns, making urban infrastructure projects more financially viable and attractive to a broader range of investors.
 
 
 ### Usecase
@@ -54,7 +59,7 @@ In our demo, we implemented under-collateralized lending as a use case by utiliz
 
 | Title          |                                                              URL |
 | :------------- | ---------------------------------------------------------------: |
-| Demo Movie      |                                      [https://youtu.be/zmENJzrxZRw](https://youtu.be/WDGJQbM-rik)|
+| Demo Movie      |  [https://youtu.be/WDGJQbM-rik](https://www.youtube.com/watch?v=pY5WoDl1_OY))|
 | Pitch Doc    |   [zkcredit-presentation](https://www.canva.com/design/DAGOvSFvJ4E/SfJTYw3sauGSbj1k4oQdDg/edit?utm_content=DAGOvSFvJ4E&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) |
 | Demo Site     |                                 [zkcredit-demo](https://zk-credit-teal.vercel.app/) | 
 | Contract   | [zkcredit-contracts](https://github.com/wasabijiro/zkCredit/tree/main/contracts) |
