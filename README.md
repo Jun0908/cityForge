@@ -59,11 +59,11 @@ Additionally, incorporating liquid staking and Miner Extractable Value (MEV) int
 
 | Title          |                                                              URL |
 | :------------- | ---------------------------------------------------------------: |
-| Demo Movie      |  [https://youtu.be/WDGJQbM-rik](https://www.youtube.com/watch?v=pY5WoDl1_OY))|
-| Pitch Doc    |   [zkcredit-presentation](https://www.canva.com/design/DAGOvSFvJ4E/SfJTYw3sauGSbj1k4oQdDg/edit?utm_content=DAGOvSFvJ4E&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) |
-| Demo Site     |                                 [zkcredit-demo](https://zk-credit-teal.vercel.app/) | 
-| Contract   | [zkcredit-contracts](https://github.com/wasabijiro/zkCredit/tree/main/contracts) |
-| Frontend |         [zkcredit-front](https://github.com/wasabijiro/zkCredit/tree/main/frontend) |
+| Demo Movie      |  [cityForge-Movie](https://www.youtube.com/watch?v=pY5WoDl1_OY)|
+| Pitch Doc    |   [cityForge-presentation](https://docs.google.com/presentation/d/1iivj84G9uyN8AYd-u-iq2lXvWZISgpxH/edit?usp=sharing&ouid=100915926369744357011&rtpof=true&sd=true)|
+| Demo Site     |                                 [cityForge-demo](https://zk-credit-teal.vercel.app/) | 
+| colosseum   | [cityForge-colosseum](https://arena.colosseum.org/projects/hackathon/cityforge) |
+
 
 
 ### Development
